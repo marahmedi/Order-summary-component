@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body{
+    font-family: 'Red Hat Display';
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: flex-start;
+    background-color: white;
+    max-width: 450px;
+    min-height: 700px;
+    margin: auto;
+    border-radius: 23px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.hero {
+    border-radius: 23px 23px 0px 0px;
+}
+
+.content {
+    padding: 3rem;
+    line-height: 160%;
+}
+.cost {
+    background-color:  hsl(225, 100%, 98%);
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+.cost-content p{
+    color: hsl(223, 47%, 23%);
+}
+.cost-content #price{
+    color: gray;
+    font-weight: 400;
+    margin:0;
+}
+.change {
+    font-family: inherit;
+    border: none;
+    background-color: hsl(225, 100%, 98%);
+    color: #3C40E1;
+    font-weight: 900;
+    font-size: 15px;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-left: 60px;
+}
+.change:hover {
+    color: #3c3fe1c4;
+    text-decoration: none;
+}
+
+.payment {
+    font-family: inherit;
+    border: none;
+    background-color: #3C40E1;
+    color: white;
+    font-weight: 900;
+    font-size: 15px;
+    padding: 0.7rem;
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.payment:hover {
+    background-color: #3c3fe15c;
+}
+
+.cancel {
+    border: none;
+    color: gray;
+    background-color: white;
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 700;
+    margin-top: 30px;
+    font-size: 15px;
+}
+.cancel:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+h1{
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    font-size: 27px;
+}
+p{
+    color:  rgba(128, 128, 128, 0.819)
+}
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+}
